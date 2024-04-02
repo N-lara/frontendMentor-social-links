@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: hsl(0, 0%, 100%);
+  font-family: inter, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+* p {
+  font-size: 14px;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  height: 100vh;
+}
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+body .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .card-container .card {
+  background-color: hsl(0, 0%, 12%);
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+body .card-container .card .card-image {
+  height: 95px;
+  width: 95px;
+  border-radius: 50px;
+  margin: 2.99vw 10.84vw;
+  margin-bottom: 0;
+}
+body .card-container .card .card-content {
+  margin: 1.74vw 0;
+}
+body .card-container .card .card-content .card-heading {
+  font-weight: 700;
+  margin-bottom: 0.98vw;
+}
+body .card-container .card .card-content .card-location {
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 2.43vw;
+}
+body .card-container .card .card-content .card-description {
+  font-weight: 400;
+  font-size: 14;
+}
+body .card-container .card .links-div {
+  margin: 0 1.1rem 1.5rem 1.1rem;
+  width: 23vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 2.92vw 2.92vw 2.92vw;
+}
+body .card-container .card .links-div button {
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 1.2vw;
+  height: 3.61vw;
+  width: 100%;
+  border-radius: 10px;
+  border-width: 0;
+}
+body .card-container .card .links-div button a {
+  font-weight: 700;
+}
+body .card-container .card .links-div button:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+body .card-container .card .links-div button:hover a {
+  color: hsl(0, 0%, 8%);
+}/*# sourceMappingURL=main.css.map */

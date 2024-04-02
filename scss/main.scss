@@ -1,0 +1,82 @@
+@import 'config';
+
+body{
+  background-color: $OffBlack;
+  height: 100vh;
+
+  .attribution{
+    font-size: 11px;
+    text-align: center;
+    a{
+      color: hsl(228, 45%, 44%);
+    }
+  }
+
+  .card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .card{
+      background-color: $DarkGrey;
+      height: fit-content;
+      width:min-content;
+
+      .card-image{
+        height: 95px;
+        width: 95px;
+        border-radius: 50px;
+        margin: 2.99vw 10.84vw;
+        margin-bottom: 0;
+      }
+
+      .card-content{
+        margin: 1.74vw 0;
+
+        .card-heading{
+          font-weight: weight(bold);
+          margin-bottom: .98vw;
+        }
+
+        .card-location{
+          color: $primary;
+          margin-bottom: 2.43vw;
+        }
+
+        .card-description{
+          font-weight: weight(regular);
+          font-size: 14;
+        }
+      }
+
+      .links-div{
+        margin: 0 1.1rem 1.5rem 1.1rem;
+        width: 23vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 2.92vw 2.92vw 2.92vw;
+        button{
+          background-color: $Grey;
+          margin-bottom: 1.2vw;
+          height: 3.61vw;
+          width:100%;
+          border-radius: 10px;
+          border-width: 0;
+
+          a{
+            font-weight: weight(bold);
+          }
+
+          &:hover{
+            background-color: $primary;
+            a{
+              color: $OffBlack
+            }
+          }
+        }
+      }
+    }
+  }  
+}
